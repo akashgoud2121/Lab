@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name = "viewpoint"
+content = "width=device_width,intial_scale=1.0">
+<title>clickable Image map </title>
+</head>
+<body>
+<h1>Clickable Image Map</h1>
+<img src = "your_image_jpg" alt= "Image with Clicable areas"
+usemap="#imageMap">
+
+<mapname="imageMap">
+<!Define the clickable areas and their corresponding link-->
+<area shape="rect" coords="0,0,100,100"
+href="page1.html"alt="object1">
+<area shape="rect" coords = "150,0,250,100"
+href="page2.html"alt="object2">
+<area shape = "circle" coord="350,50,50"
+href="page3.html"alt="object3">
+<!--ADD more as needed-->
+</map>
+</body>
+</html>

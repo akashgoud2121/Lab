@@ -1,0 +1,28 @@
+body{
+font-family=Arial ,sans-serif;
+margin:0;
+padding:0;
+}
+
+
+header{
+background-colour:#333;
+color:#fff;
+padding:10px;
+text-align:center;
+}
+
+.container{
+max-width:800px;
+margin:20px auto;
+padding :020px;
+}
+
+
+button{
+background-colour:#007fff;
+color:#fff;
+border:none;
+padding : 10px 20px
+cursor:pointer;
+}

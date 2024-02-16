@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset= "UTF-8">
+<meta name="viewport" content="device-width" initial_scale=1.0">
+<title>Simple Website</title>
+<style>
+
+body{
+font-family=Arial ,sans-serif;
+margin:0;
+padding:0;
+}
+
+
+header{
+background-colour:#333;
+color:#fff;
+padding:10px;
+text-align:center;
+}
+
+.container{
+max-width:800px;
+margin:20px auto;
+padding :020px;
+}
+
+
+button{
+background-colour:#007fff;
+color:#fff;
+border:none;
+padding : 10px 20px
+cursor:pointer;
+}
+
+</style>
+
+</head>
+<body>
+<header>
+<h1>Simple Website</h1>
+</header>
+<div class="container">
+<h2> Welcome to my simple Website!</h2>
+<p> Simple website using Html , CSS and J.S</p>
+<p>Click button below to change background color:</p>
+<button id = "color Button" > change color</button>
+</div>
+<script>
+document.getElementById("color Button")
+add EventListner ("click",function()
+{
+document.body.style.backgroundcolor=getRandomcolor();
+});
+
+funtion getRandomcolor(){
+var letters="0123456789ABCDEF";
+var color="H"
+
+for(var i=0;i<6;i++){
+color+=letters(Math.floor(math.random()*16)];
+}
+
+return color;}
+</script>
+</body>
+</html>
+
+
+
+</body>
+</html>
